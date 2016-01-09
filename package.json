@@ -1,0 +1,14 @@
+{
+  "name": "my-notes-server",
+  "version": "0.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "express": "^4.9.7",
+    "express-jwt-auth": "git+https://github.com/baniol/express-jwt-auth.git#reset-password-url",
+    "marked": "~0.3.2",
+    "mongodb": "2.1.2",
+    "mongoose": "^4.1.12",
+    "q": "~1.1.2"
+  }
+}
